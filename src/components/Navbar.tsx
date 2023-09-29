@@ -3,7 +3,8 @@ import {HiArrowRight, HiBars3, HiXMark, HiDocumentArrowDown, HiChartBar, HiPhone
 
 const Navbar = () => {
 
-    const [nav, setNav] = useState(false)
+    const [nav, setNav] = useState<boolean>(false)
+
   return (
     <nav className='fixed top-0 left-0 w-full z-50 bg-white py-2'>
         <div className='flex items-center justify-between py-4 px-6'>
